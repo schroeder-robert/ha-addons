@@ -17,5 +17,5 @@ full_access: true
 options:
   devices: ""
 schema:
-  devices: device
+  devices: device(subsystem=tty)
 #image: "ghcr.io/home-assistant/{arch}-addon-example"
