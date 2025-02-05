@@ -1,8 +1,8 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Vantelligence Connector
-version: 1.0.9
-slug: vantelligence_connector
-description: MQTT Connector for devices in your camper.
+name: Example add-on
+version: "1.2.0"
+slug: example
+description: Example add-on
 url: "https://github.com/home-assistant/addons-example/tree/main/example"
 arch:
   - armhf
@@ -13,9 +13,8 @@ arch:
 init: false
 map:
   - share:rw
-full_access: true
 options:
-  devices: ""
+  message: "Hello world..."
 schema:
-  devices: device(subsystem=tty)
-#image: "ghcr.io/home-assistant/{arch}-addon-example"
+  message: "str?"
+image: "ghcr.io/home-assistant/{arch}-addon-example"
