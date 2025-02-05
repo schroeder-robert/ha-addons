@@ -1,0 +1,4 @@
+[submodule "vantelligence_connector"]
+	path = vantelligence_connector
+	url = https://github.com/schroeder-robert/vantelligence_connector.git
+	branch = main
