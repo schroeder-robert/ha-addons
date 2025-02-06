@@ -10,6 +10,17 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
+### [Vantelligence Connector add-on](./vantelligence_connector)
+
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
+
+MQTT connector for devices in your camper.
+
+
 ### [Example add-on](./example)
 
 ![Supports aarch64 Architecture][aarch64-shield]
